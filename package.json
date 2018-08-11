@@ -1,0 +1,38 @@
+{
+  "name": "toggle-button",
+  "version": "1.0.0",
+  "description": "switch button with iOS style",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack.config.js --progress --hide-modules"
+
+  },
+  "keywords": [
+    "toggle",
+    "button"
+  ],
+  "peerDependencies": {
+    "vue": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.10",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.10",
+    "@vue/cli-service": "^3.0.0-rc.10",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-latest": "^6.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.5.0",
+    "optimize-css-assets-webpack-plugin": "^3.1.1",
+    "sass-loader": "^5.0.1",
+    "vue": "^2.0.0",
+    "vue-loader": "^11.1.4",
+    "vue-template-compiler": "^2.0.0",
+    "webpack": "^2.2.0",
+    "webpack-merge": "^4.1.0"
+  },
+  "author": "ljs19870826@163.com",
+  "license": "ISC"
+}
